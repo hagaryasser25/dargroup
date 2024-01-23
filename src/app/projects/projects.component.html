@@ -1,0 +1,9 @@
+<h2 style="text-align:center; margin-top: 50px;">
+	OUR PROJECTS
+</h2>
+<div class="imgcontainer justify-content-center">
+
+	<div class="gallery col12" *ngFor="let image of _albums; let i=index">
+	  <img src="{{image.thumb}}" (click)="open(i)" />
+	</div>
+</div>

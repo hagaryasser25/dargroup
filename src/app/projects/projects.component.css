@@ -1,0 +1,25 @@
+.imgcontainer {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+}
+
+.imgcontainer .gallery img {
+  float: left;
+  width: 25%;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 10px;
+  height: auto;
+  border: 2px solid #fff;
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+  position: relative;
+}
+h2 {
+  font-family: "Plex Sans", sans-serif, Icons;
+}

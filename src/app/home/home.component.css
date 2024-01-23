@@ -1,0 +1,128 @@
+.moving{
+    font-family: "Nanum Myeongjo", serif, Icons;
+    font-size: 40px;
+    margin-bottom: 100px;
+
+
+  }
+  .header
+{
+  margin-top: 100px;
+  font-size: 70px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  text-align: center;
+  
+}
+
+@keyframes fadeInTop {
+    0% {
+       opacity: 0;
+       transform: translatey(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ } 
+
+.center{
+
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+.image2{
+  width: 1000px;
+  height: 600px;
+  margin-right: 100px;
+  
+  margin-top: 100px
+}
+.dar{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 320px) {
+  .read {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+}
+
+
+p{
+  text-decoration:none;  color:black;
+  font-family: "Plex Sans",sans-serif, Icons;
+  
+}
+
+@media only screen and (min-width: 200px) {
+  .logo {
+      width: 160px;
+      margin-left: 3px;
+
+  }
+  .moving{
+    font-size: 30px;
+    margin-bottom: 50px;
+
+
+  }
+  
+    p{
+      margin-top: 5px;
+      font-size: 17;
+    }
+  
+}
+
+@media only screen and (min-width: 320px) {
+  .logo {
+    width: 160px;
+    margin-left: 3px;
+
+  }
+  .moving{
+    font-size: 30px;
+    margin-bottom: 50px;
+
+
+  }
+  p{
+    margin-top: 5px;
+    font-size: 17;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .logo {
+    width: 300px;
+    margin-left: 110px;
+  }
+  .moving{
+    font-size: 35px;
+    margin-bottom: 100px;
+  }
+  p{
+    margin-top: 10px;
+    font-size: 20;
+  }
+  .image-container{
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  .image-container:hover {
+    transform: scale(1.1); /* Adjust the scale factor for zoom level */
+  }
+  .img-thumbnail{
+    
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-container:hover .img-thumbnail {
+    transform: scale(1.1); /* Adjust the scale factor for zoom level */
+  }
+}
+

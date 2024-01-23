@@ -1,0 +1,61 @@
+
+
+h2 {
+    font-family: "Plex Sans", sans-serif, Icons;
+    margin-top:20px
+}
+
+
+.image {
+    width: 700px;
+    height: 600px;
+}
+
+.image2 {
+    width: 800px;
+    height: 600px;
+    margin-top: 100px;
+}
+
+.row {
+    margin-top: 100px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
+}
+
+@media only screen and (min-width: 200px) {
+    .page {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .head{
+        margin-top: 30px
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    .page {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .head{
+        margin-top: 30px
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .page {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    .head{
+        margin-top:100px
+    }
+  
+}
